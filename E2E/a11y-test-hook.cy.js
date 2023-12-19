@@ -6,7 +6,6 @@ describe('Visit Democart main page to validate Accessibility rules', () => {
         cy.injectAxe();
     });
 
-
     it('Cypress-axe should log any accessibility failures', () => {
         cy.checkA11y();
     });
