@@ -38,7 +38,7 @@ body {
 <style>
         /* Set a fixed height for the carousel */
         #carouselExample {
-            max-height: 400px; /* Adjust the height as needed */
+            max-height: 300px; /* Adjust the height as needed */
         }
 
         /* Ensure images fill the container without stretching */
