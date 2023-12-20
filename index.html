@@ -10,7 +10,11 @@
     <!-- ... (existing code) ... -->
 <!-- Update CSS and JavaScript paths -->
 <link rel="stylesheet" href="style.css">
-<style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu Example</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
         /* Set a fixed height for the carousel */
         #carouselExample {
             max-width: 3in; /* 3 inches per image, 3 images in a row */
@@ -50,6 +54,18 @@
             <p id="automation-text">Click the button to automate something!</p>
             <button id="automation-button">Automate</button> <button id="automation-button">Automate2</button>
             <button id="automation-button">Automate3</button>
+        </section>
+        <section id="menu-dropdown">
+            <h2>Ask Us</h2>
+            <!-- Dropdown -->
+    <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+            <a href="#service1">Service 1</a>
+            <a href="#service2">Service 2</a>
+            <a href="#service3">Service 3</a>
+        </div>
+    </div>
         </section>
         <section id="about-section">
             <h2>About Section</h2>
