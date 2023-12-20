@@ -4,12 +4,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #3498db; /* Set the background color */
 }
 
 nav {
     background-color: #444;
     padding: 10px;
-    overflow: hidden;
 }
 
 nav ul {
@@ -74,4 +74,14 @@ nav a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#carouselExample {
+    max-width: 3in;
+    margin: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
 }
