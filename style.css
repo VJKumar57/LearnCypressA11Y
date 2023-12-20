@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 #carouselExample {
-    max-width: 3in;
+    max-width: 600px; /* Set a more standard width in pixels or another appropriate unit */
     margin: auto;
 }
 
