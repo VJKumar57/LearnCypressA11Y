@@ -1,19 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get elements
-    const automationText = document.getElementById('automation-text');
-    const automationButton = document.getElementById('automation-button');
+    // ... (existing code) ...
 
-    // Add click event listener to the button
-    automationButton.addEventListener('click', function() {
-        // Simulate automation (replace this with your actual automation code)
-        automateSomething();
+    // Add smooth scrolling for navigation links
+    const navLinks = document.querySelectorAll('nav a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetElement.offsetTop - 50, // Adjust for fixed header
+                behavior: 'smooth'
+            });
+        });
     });
 
-    // Function to simulate automation
-    function automateSomething() {
-        // Replace this with your automation logic
-        automationText.textContent = 'Automation successful!';
-
-        // You can add more automation steps here
-    }
+    // ... (existing code) ...
 });
