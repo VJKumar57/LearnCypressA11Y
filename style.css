@@ -34,3 +34,17 @@ body {
     padding: 0;
 }
 /* ... (existing code) ... */
+
+<style>
+        /* Set a fixed height for the carousel */
+        #carouselExample {
+            max-height: 400px; /* Adjust the height as needed */
+        }
+
+        /* Ensure images fill the container without stretching */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
