@@ -1,2 +1,2 @@
 # LearnCypressA11Y
-This is learning repository
+This is Automation learning repository
