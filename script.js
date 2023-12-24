@@ -25,7 +25,7 @@ function submitQuiz() {
         correctCount++;
     }
 
-    resultContainer.textContent = `You got ${correctCount} out of 2 questions correct.`;
+    resultContainer.textContent = `You got ${correctCount} out of 3 questions correct.`;
 }
 
 document.getElementById("submit-btn").addEventListener("click", submitQuiz);
