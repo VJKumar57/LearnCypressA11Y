@@ -47,4 +47,9 @@ function submitQuiz() {
     resultContainer.textContent = `You got ${correctCount} out of 2 questions correct.`;
 }
 
+document.getElementById("quiz-btn").addEventListener("click", function() {
+    // Navigate to the quiz page
+    window.location.href = "quiz.html";
+});
+
 document.getElementById("submit-btn").addEventListener("click", submitQuiz);
