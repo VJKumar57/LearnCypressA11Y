@@ -2,6 +2,7 @@ function submitQuiz() {
     // Retrieve selected answers
     const answer1 = document.querySelector('input[name="q1"]:checked');
     const answer2 = document.querySelector('input[name="q2"]:checked');
+    const answer3 = document.querySelector('input[name="q3"]:checked');
 
     // Check if all questions are answered
     if (!answer1 || !answer2 || !answer3) {
