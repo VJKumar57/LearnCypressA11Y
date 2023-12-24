@@ -36,11 +36,11 @@ body {
 }
 
 #submit-btn {
-    margin-top: 10px;
-    padding: 8px;
+    margin-top: 20px;
+    padding: 16px;
     cursor: pointer;
     background-color: #3498db;
     color: #ffa23a;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
 }
