@@ -30,3 +30,11 @@ function submitQuiz() {
 }
 
 document.getElementById("submit-btn").addEventListener("click", submitQuiz);
+
+function resetForm() {
+    // Get the form element
+    var form = document.getElementById("myForm");
+
+    // Reset the form
+    form.reset();
+}
