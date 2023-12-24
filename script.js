@@ -4,7 +4,7 @@ function submitQuiz() {
     const answer2 = document.querySelector('input[name="q2"]:checked');
 
     // Check if all questions are answered
-    if (!answer1 || !answer2) {
+    if (!answer1 || !answer2 || !answer3) {
         alert("Please answer all questions.");
         return;
     }
@@ -18,6 +18,10 @@ function submitQuiz() {
     }
 
     if (answer2.value === "Jupiter") {
+        correctCount++;
+    }
+
+    if (answer3.value === "Venus") {
         correctCount++;
     }
 
