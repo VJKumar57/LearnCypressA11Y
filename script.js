@@ -5,6 +5,16 @@ const quizData = [
         options: ["Paris", "Berlin", "London", "Madrid"],
         correctAnswer: "Paris"
     },
+    {
+        question: "What is the capital of India?",
+        options: ["Chennai", "Delhi", "Lucknow", "Mumbai"],
+        correctAnswer: "Delhi"
+    },
+    {
+        question: "What is the capital of USA?",
+        options: ["Ohio", "Orlando", "London", "Washington D.C."],
+        correctAnswer: "Washington D.c."
+    },
     // Add more questions here...
 ];
 
