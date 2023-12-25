@@ -62,6 +62,7 @@ function displayResult() {
     const score = calculateScore();
 
     resultMessage.textContent = `You scored ${score} out of ${quizData.length}.`;
+    document.getElementById("retake-btn").style.display = "block"; // Display the "Retake Quiz" button
 
     if (score >= quizData.length / 2) {
         resultContainer.style.color = "green";
