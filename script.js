@@ -66,10 +66,10 @@ function displayResult() {
 
     if (score >= quizData.length / 2) {
         resultContainer.style.color = "green";
-        resultMessage.textContent += " Well done!";
+        resultMessage.textContent += " Well done!!";
     } else {
         resultContainer.style.color = "red";
-        resultMessage.textContent += " Keep practicing.";
+        resultMessage.textContent += " Keep practicing!!";
     }
 
     document.getElementById("button-container").style.display = "none";
