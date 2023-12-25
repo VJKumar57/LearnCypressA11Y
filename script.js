@@ -104,4 +104,5 @@ function submitQuiz() {
     displayResult();
     alert("Quiz submitted Successfully.  Please find your score below!");
     // Additional logic for submitting the quiz to a server or storing results.
+    document.getElementById("retake-btn").style.display = "block"; // Display the "Retake Quiz" button
 }
