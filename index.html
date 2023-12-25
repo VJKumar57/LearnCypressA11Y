@@ -3,48 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Quiz</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Your Logo</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <div id="quiz-container">
-        <div class="question">1. What is the capital of France?</div>
-        <div class="options">
-            <div class="option"><input type="radio" name="q1" value="Paris"> Paris</div>
-            <div class="option"><input type="radio" name="q1" value="Berlin"> Berlin</div>
-            <div class="option"><input type="radio" name="q1" value="Madrid"> Madrid</div>
-            <div class="option"><input type="radio" name="q1" value="Rome"> Rome</div>
+        <div id="question-container">
+            <h2 id="question">Question 1: What is the capital of France?</h2>
+            <ul id="options">
+                <li><input type="radio" name="answer" value="Paris"> Paris</li>
+                <li><input type="radio" name="answer" value="Berlin"> Berlin</li>
+                <li><input type="radio" name="answer" value="London"> London</li>
+                <li><input type="radio" name="answer" value="Madrid"> Madrid</li>
+            </ul>
         </div>
 
-        <div class="question">2. What is the largest planet in our solar system?</div>
-        <div class="options">
-            <div class="option"><input type="radio" name="q2" value="Earth"> Earth</div>
-            <div class="option"><input type="radio" name="q2" value="Jupiter"> Jupiter</div>
-            <div class="option"><input type="radio" name="q2" value="Mars"> Mars</div>
-            <div class="option"><input type="radio" name="q2" value="Venus"> Venus</div>
+        <div id="button-container">
+            <button id="next-btn" onclick="nextQuestion()">Next</button>
+            <button id="submit-btn" onclick="submitQuiz()">Submit</button>
+            <button id="retake-btn" onclick="retakeQuiz()">Retake Quiz</button>
         </div>
 
-        <div class="question">3. What is the smallest planet in our solar system?</div>
-        <div class="options">
-            <div class="option"><input type="radio" name="q3" value="Earth"> Earth</div>
-            <div class="option"><input type="radio" name="q3" value="Jupiter"> Jupiter</div>
-            <div class="option"><input type="radio" name="q3" value="Mars"> Mars</div>
-            <div class="option"><input type="radio" name="q3" value="Venus"> Venus</div>
+        <div id="result-container">
+            <p id="result-message"></p>
         </div>
-
-        <button id="submit-btn">Submit</button>  <button type="reset" onclick="resetForm()">Reset</button>
-        <div id="result"></div>
     </div>
 
     <script src="script.js"></script>
