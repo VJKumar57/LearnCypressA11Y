@@ -47,7 +47,8 @@ function nextQuestion() {
         if (currentQuestion < quizData.length) {
             displayQuestion();
         } else {
-            displayResult();
+            //displayResult();
+            alert("You have reached end of the Quiz.  Please select Submit button!");
         }
     } else {
         alert("Please select an option before moving to the next question.");
@@ -100,6 +101,7 @@ function retakeQuiz() {
 }
 
 function submitQuiz() {
+    displayResult();
     alert("Quiz submitted!");
     // Additional logic for submitting the quiz to a server or storing results.
 }
