@@ -13,7 +13,7 @@ const quizData = [
     {
         question: "What is the capital of USA?",
         options: ["Ohio", "Orlando", "London", "Washington D.C."],
-        correctAnswer: "Washington D.c."
+        correctAnswer: "Washington D.C."
     },
     // Add more questions here...
 ];
