@@ -12,8 +12,8 @@ const quizData = [
     },
     {
         question: "What is the capital of USA?",
-        options: ["Ohio", "Orlando", "London", "Washington D.C."],
-        correctAnswer: "Washington D.C."
+        options: ["Ohio", "Orlando", "London", "Washington"],
+        correctAnswer: "Washington"
     },
     // Add more questions here...
 ];
