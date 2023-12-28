@@ -1,7 +1,7 @@
 // Sample quiz questions and answers
 const quizData = [
     {
-        question: "What is the capital of France?",
+        question: "What is the name of the capital of France?",
         options: ["Paris", "Berlin", "London", "Madrid"],
         correctAnswer: "Paris"
     },
@@ -15,9 +15,6 @@ const quizData = [
         options: ["Ohio", "Orlando", "London", "Washington"],
         correctAnswer: "Washington"
     },
-    // Add more questions here...
-
-    // Additional questions with their options and correct answers
     {
         question: "What is the capital of Canada?",
         options: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
