@@ -104,7 +104,27 @@ const quizData = [
         question: "What is the capital of Indonesia?",
         options: ["Jakarta", "Surabaya", "Bandung", "Medan"],
         correctAnswer: "Jakarta"
-    }
+    },
+    {
+        question: "What is the capital of Moscow?",
+        options: ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg"],
+        correctAnswer: "Moscow"
+    },
+    {
+        question: "What is the capital of Saint Petersburg?",
+        options: ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg"],
+        correctAnswer: "Saint Petersburg"
+    },
+    {
+        question: "What is the capital of Novosibirsk?",
+        options: ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg"],
+        correctAnswer: "Novosibirsk"
+    },
+    {
+        question: "What is the capital of Yekaterinburg?",
+        options: ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg"],
+        correctAnswer: "Yekaterinburg"
+    },
     // Add more questions as needed...
 ];
 
