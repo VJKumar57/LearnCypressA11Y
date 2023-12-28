@@ -1,36 +1,6 @@
 // Sample quiz questions and answers
 const quizData = [
     {
-        question: "What is the name of the capital of France?",
-        options: ["Paris", "Berlin", "London", "Madrid"],
-        correctAnswer: "Paris"
-    },
-    {
-        question: "What is the capital of India?",
-        options: ["Chennai", "Delhi", "Lucknow", "Mumbai"],
-        correctAnswer: "Delhi"
-    },
-    {
-        question: "What is the capital of USA?",
-        options: ["Ohio", "Orlando", "London", "Washington"],
-        correctAnswer: "Washington"
-    },
-    {
-        question: "What is the capital of Canada?",
-        options: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
-        correctAnswer: "Ottawa"
-    },
-    {
-        question: "What is the capital of Japan?",
-        options: ["Tokyo", "Osaka", "Kyoto", "Seoul"],
-        correctAnswer: "Tokyo"
-    },
-    {
-        question: "What is the capital of Australia?",
-        options: ["Sydney", "Melbourne", "Canberra", "Perth"],
-        correctAnswer: "Canberra"
-    },
-    {
         question: "What is the capital of Brazil?",
         options: ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
         correctAnswer: "Brasília"
@@ -61,6 +31,31 @@ const quizData = [
         correctAnswer: "Mexico City"
     },
     {
+        question: "What is the capital of Australia?",
+        options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        correctAnswer: "Canberra"
+    },
+    {
+        question: "What is the capital of India?",
+        options: ["Chennai", "Delhi", "Lucknow", "Mumbai"],
+        correctAnswer: "Delhi"
+    },
+    {
+        question: "What is the capital of France?",
+        options: ["Paris", "Berlin", "London", "Madrid"],
+        correctAnswer: "Paris"
+    },
+    {
+        question: "What is the capital of Canada?",
+        options: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        correctAnswer: "Ottawa"
+    },
+    {
+        question: "What is the capital of Japan?",
+        options: ["Tokyo", "Osaka", "Kyoto", "Seoul"],
+        correctAnswer: "Tokyo"
+    },
+    {
         question: "What is the capital of Egypt?",
         options: ["Cairo", "Alexandria", "Luxor", "Aswan"],
         correctAnswer: "Cairo"
@@ -89,6 +84,26 @@ const quizData = [
         question: "What is the capital of Spain?",
         options: ["Madrid", "Barcelona", "Valencia", "Seville"],
         correctAnswer: "Madrid"
+    },
+    {
+        question: "What is the capital of Turkey?",
+        options: ["Istanbul", "Ankara", "Izmir", "Antalya"],
+        correctAnswer: "Ankara"
+    },
+    {
+        question: "What is the capital of Thailand?",
+        options: ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"],
+        correctAnswer: "Bangkok"
+    },
+    {
+        question: "What is the capital of Saudi Arabia?",
+        options: ["Riyadh", "Jeddah", "Mecca", "Medina"],
+        correctAnswer: "Riyadh"
+    },
+    {
+        question: "What is the capital of Indonesia?",
+        options: ["Jakarta", "Surabaya", "Bandung", "Medan"],
+        correctAnswer: "Jakarta"
     }
     // Add more questions as needed...
 ];
