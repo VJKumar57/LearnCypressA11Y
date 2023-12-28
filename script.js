@@ -16,6 +16,84 @@ const quizData = [
         correctAnswer: "Washington"
     },
     // Add more questions here...
+
+    // Additional questions with their options and correct answers
+    {
+        question: "What is the capital of Canada?",
+        options: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        correctAnswer: "Ottawa"
+    },
+    {
+        question: "What is the capital of Japan?",
+        options: ["Tokyo", "Osaka", "Kyoto", "Seoul"],
+        correctAnswer: "Tokyo"
+    },
+    {
+        question: "What is the capital of Australia?",
+        options: ["Sydney", "Melbourne", "Canberra", "Perth"],
+        correctAnswer: "Canberra"
+    },
+    {
+        question: "What is the capital of Brazil?",
+        options: ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+        correctAnswer: "Brasília"
+    },
+    {
+        question: "What is the capital of China?",
+        options: ["Beijing", "Shanghai", "Hong Kong", "Guangzhou"],
+        correctAnswer: "Beijing"
+    },
+    {
+        question: "What is the capital of Germany?",
+        options: ["Berlin", "Munich", "Hamburg", "Frankfurt"],
+        correctAnswer: "Berlin"
+    },
+    {
+        question: "What is the capital of Russia?",
+        options: ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg"],
+        correctAnswer: "Moscow"
+    },
+    {
+        question: "What is the capital of South Africa?",
+        options: ["Cape Town", "Johannesburg", "Durban", "Pretoria"],
+        correctAnswer: "Pretoria"
+    },
+    {
+        question: "What is the capital of Mexico?",
+        options: ["Mexico City", "Guadalajara", "Monterrey", "Puebla"],
+        correctAnswer: "Mexico City"
+    },
+    {
+        question: "What is the capital of Egypt?",
+        options: ["Cairo", "Alexandria", "Luxor", "Aswan"],
+        correctAnswer: "Cairo"
+    },
+    {
+        question: "What is the capital of Argentina?",
+        options: ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+        correctAnswer: "Buenos Aires"
+    },
+    {
+        question: "What is the capital of Nigeria?",
+        options: ["Lagos", "Abuja", "Kano", "Ibadan"],
+        correctAnswer: "Abuja"
+    },
+    {
+        question: "What is the capital of South Korea?",
+        options: ["Seoul", "Busan", "Incheon", "Daegu"],
+        correctAnswer: "Seoul"
+    },
+    {
+        question: "What is the capital of Italy?",
+        options: ["Rome", "Milan", "Venice", "Naples"],
+        correctAnswer: "Rome"
+    },
+    {
+        question: "What is the capital of Spain?",
+        options: ["Madrid", "Barcelona", "Valencia", "Seville"],
+        correctAnswer: "Madrid"
+    }
+    // Add more questions as needed...
 ];
 
 let currentQuestion = 0;
