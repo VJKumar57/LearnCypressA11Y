@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div id="menu-icon">&#9776;</div>
+        <div id="menu">
+            <a href="#" onclick="loadPage('home')" target="_parent">Home</a>
+            <a href="#" onclick="loadPage('dashboard')" target="_parent"">Dashboard</a>
+            <a href="#" onclick="loadPage('trainings')" target="_parent">Trainings</a>
+            <a href="#" onclick="loadPage('quiz')" target="_parent">Quiz</a>
+            <a href="#" onclick="loadPage('about')">About Us</a>
+        </div>
+        <div><h1 style="color: white;" class="centered-heading">Accessibility Testing</h1></div>
+        <div class="profile-section">
+            <div id="search-container">
+                <input type="text" id="search-bar" class="search-bar" placeholder="Search..." oninput="handleSearch()" aria-label="Search">
+            </div>
+            <div id="profile"></div> 
+            <div class="profile-info">
+                <span id="welcome-message" class="welcome-message"> Welcome back, Vijay!</span>
+                <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle profile-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="profile-picture" src="profile_settings.png" alt="Profile Picture">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#" onclick="loadPage('signup')">Register</a>
+                    <a class="dropdown-item" href="#" onclick="loadPage('signin')">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div id="quiz-container">
         <div id="question-container">
             <h2 id="question">Question 1: What is the capital of France?</h2>
